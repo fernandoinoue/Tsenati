@@ -1,319 +1,319 @@
 
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
 
-    # Definir variables
-igv = float()
+#     # Definir variables
+# igv = float()
 
-mnto = float()
+# mnto = float()
 
-totalfac = float()
+# totalfac = float()
 
-imp = float()
+# imp = float()
 
-op = str()
+# op = str()
 
-des = str()
+# des = str()
 
-alm = str()
+# alm = str()
 
-cn = str()
+# cn = str()
 
-igv = 0.18
+# igv = 0.18
 
-while True:
+# while True:
 
-    # ingresar y procesar datos
-    print("| RESTAURANTE S.A | | MENÚ |")
+#     # ingresar y procesar datos
+#     print("| RESTAURANTE S.A | | MENÚ |")
 
-    print("| A |Desayuno |")
+#     print("| A |Desayuno |")
 
-    print("| B |Almuerzo |")
+#     print("| B |Almuerzo |")
 
-    print("| C |Cena |")
+#     print("| C |Cena |")
 
-    print("| D |========= SALIR =========| | ")
+#     print("| D |========= SALIR =========| | ")
 
-    while True:
+#     while True:
 
-        op = input()
+#         op = input()
 
-        op = str.lower(op)
+#         op = str.lower(op)
 
-        if not (op == "a" or op == "b" or op == "c" or op == "d"):
+#         if not (op == "a" or op == "b" or op == "c" or op == "d"):
 
-            print("Entrada inválida")
+#             print("Entrada inválida")
 
-        if (op == "a" or op == "b" or op == "c" or op == "d"):
-            break
+#         if (op == "a" or op == "b" or op == "c" or op == "d"):
+#             break
 
-    if op == "a":
+#     if op == "a":
 
-        print(" | Desayuno |")
+#         print(" | Desayuno |")
 
-        print("| A |Café |S/4.50|")
+#         print("| A |Café |S/4.50|")
 
-        print("| B |Chocolate |S/5.00| ")
+#         print("| B |Chocolate |S/5.00| ")
 
-        print("| C |Jugo de Fresas |S/9.00|")
+#         print("| C |Jugo de Fresas |S/9.00|")
 
-        print("| D |Jugo de Papaya |S/8.00|")
+#         print("| D |Jugo de Papaya |S/8.00|")
 
-        print("| E |Pan con Pollo |S/7.00|")
+#         print("| E |Pan con Pollo |S/7.00|")
 
-        print("| F |Pan con Jamón |S/7.00|")
+#         print("| F |Pan con Jamón |S/7.00|")
 
-        print("| G |Pan con Tortilla |S/7.00|")
+#         print("| G |Pan con Tortilla |S/7.00|")
 
-        print("| J |========= SALIR =========|")
+#         print("| J |========= SALIR =========|")
 
-        while True:
+#         while True:
 
-            des = input()
+#             des = input()
 
-            des = str.lower(des)
+#             des = str.lower(des)
 
-            if not (des == "a" or des == "b" or des == "c" or des == "d" or des == "e" or des == "f" or des == "g" or des == "j"):
+#             if not (des == "a" or des == "b" or des == "c" or des == "d" or des == "e" or des == "f" or des == "g" or des == "j"):
 
-                print("Entrada inválida")
+#                 print("Entrada inválida")
 
-            if (des == "a" or des == "b" or des == "c" or des == "d" or des == "e" or des == "f" or des == "g" or des == "j"):
-                break
+#             if (des == "a" or des == "b" or des == "c" or des == "d" or des == "e" or des == "f" or des == "g" or des == "j"):
+#                 break
 
-        if des == "a":
+#         if des == "a":
 
-            mnto = 4.50
+#             mnto = 4.50
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif des == "b":
+#         elif des == "b":
 
-            mnto = 5.00
+#             mnto = 5.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif des == "c":
+#         elif des == "c":
 
-            mnto = 9.00
+#             mnto = 9.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif des == "d":
+#         elif des == "d":
 
-            mnto = 8.00
+#             mnto = 8.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif des == "e":
+#         elif des == "e":
 
-            mnto = 7.00
+#             mnto = 7.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif des == "f":
+#         elif des == "f":
 
-            mnto = 7.00
+#             mnto = 7.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif des == "g":
+#         elif des == "g":
 
-            mnto = 7.00
+#             mnto = 7.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-    elif op == "b":
+#     elif op == "b":
 
-        print("| Almuerzo |")
+#         print("| Almuerzo |")
 
-        print("| A |Café |S/4.50 |")
+#         print("| A |Café |S/4.50 |")
 
-        print("| B |Chocolate |S/5.00 |")
+#         print("| B |Chocolate |S/5.00 |")
 
-        print("| C |Jugo de Fresas |S/9.00 |")
+#         print("| C |Jugo de Fresas |S/9.00 |")
 
-        print("| D |Jugo de Papaya |S/8.00 |")
+#         print("| D |Jugo de Papaya |S/8.00 |")
 
-        print("| E |Pan con Pollo |S/7.00 |")
+#         print("| E |Pan con Pollo |S/7.00 |")
 
-        print("| F |Pan con Jamón |S/7.00 |")
+#         print("| F |Pan con Jamón |S/7.00 |")
 
-        print("| G |Pan con Tortilla |S/7.00 |")
+#         print("| G |Pan con Tortilla |S/7.00 |")
 
-        print("| J |========= SALIR =========|")
+#         print("| J |========= SALIR =========|")
 
-        while True:
+#         while True:
 
-            alm = input()
+#             alm = input()
 
-            alm = str.lower(alm)
+#             alm = str.lower(alm)
 
-            if not (alm == "a" or alm == "b" or alm == "c" or alm == "d" or alm == "e" or alm == "f" or alm == "g" or alm == "j"):
+#             if not (alm == "a" or alm == "b" or alm == "c" or alm == "d" or alm == "e" or alm == "f" or alm == "g" or alm == "j"):
 
-                print("Entrada inválida")
+#                 print("Entrada inválida")
 
-            if (alm == "a" or alm == "b" or alm == "c" or alm == "d" or alm == "e" or alm == "f" or alm == "g" or alm == "j"):
-                break
+#             if (alm == "a" or alm == "b" or alm == "c" or alm == "d" or alm == "e" or alm == "f" or alm == "g" or alm == "j"):
+#                 break
 
-        if alm == "a":
+#         if alm == "a":
 
-            mnto = 4.50
+#             mnto = 4.50
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif alm == "b":
+#         elif alm == "b":
 
-            mnto = 5.00
+#             mnto = 5.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif alm == "c":
+#         elif alm == "c":
 
-            mnto = 9.00
+#             mnto = 9.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif alm == "d":
+#         elif alm == "d":
 
-            mnto = 8.00
+#             mnto = 8.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif alm == "e":
+#         elif alm == "e":
 
-            mnto = 7.00
+#             mnto = 7.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif alm == "f":
+#         elif alm == "f":
 
-            mnto = 7.00
+#             mnto = 7.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif alm == "g":
+#         elif alm == "g":
 
-            mnto = 7.00
+#             mnto = 7.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-    elif op == "c":
+#     elif op == "c":
 
-        print(" | Cena | ")
+#         print(" | Cena | ")
 
-        print("| A |Pizza Exprés |S/9.50 |")
+#         print("| A |Pizza Exprés |S/9.50 |")
 
-        print("| B |Ensalada Campera |S/7.50 |")
+#         print("| B |Ensalada Campera |S/7.50 |")
 
-        print("| C |Gazpacho |S/6.00 |")
+#         print("| C |Gazpacho |S/6.00 |")
 
-        print("| D |Caldo de Gallina |S/6.00 |")
+#         print("| D |Caldo de Gallina |S/6.00 |")
 
-        print("| E |Pollo al horno |S/5.50 |")
+#         print("| E |Pollo al horno |S/5.50 |")
 
-        print("| F |Menestrón |S/4.00 | ")
+#         print("| F |Menestrón |S/4.00 | ")
 
-        print("| G |========= SALIR =========|")
+#         print("| G |========= SALIR =========|")
 
-        while True:
+#         while True:
 
-            cn = input()
+#             cn = input()
 
-            cn = str.lower(cn)
+#             cn = str.lower(cn)
 
-            if not (cn == "a" or cn == "b" or cn == "c" or cn == "d" or cn == "e" or cn == "f" or cn == "g"):
+#             if not (cn == "a" or cn == "b" or cn == "c" or cn == "d" or cn == "e" or cn == "f" or cn == "g"):
 
-                print("Entrada inválida")
+#                 print("Entrada inválida")
 
-            if (cn == "a" or cn == "b" or cn == "c" or cn == "d" or cn == "e" or cn == "f" or cn == "g"):
-                break
+#             if (cn == "a" or cn == "b" or cn == "c" or cn == "d" or cn == "e" or cn == "f" or cn == "g"):
+#                 break
 
-        if cn == "a":
+#         if cn == "a":
 
-            mnto = 9.50
+#             mnto = 9.50
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif cn == "b":
+#         elif cn == "b":
 
-            mnto = 7.50
+#             mnto = 7.50
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif cn == "c":
+#         elif cn == "c":
 
-            mnto = 6.00
+#             mnto = 6.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif cn == "d":
+#         elif cn == "d":
 
-            mnto = 6.00
+#             mnto = 6.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif cn == "e":
+#         elif cn == "e":
 
-            mnto = 5.50
+#             mnto = 5.50
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-        elif cn == "f":
+#         elif cn == "f":
 
-            mnto = 4.00
+#             mnto = 4.00
 
-            imp = mnto*igv
+#             imp = mnto*igv
 
-            totalfac = mnto+imp
+#             totalfac = mnto+imp
 
-    # Mostrar resultados
-    print("| BOLETA DE VENTAS | ")
+#     # Mostrar resultados
+#     print("| BOLETA DE VENTAS | ")
 
-    print("| | Subtotal | |: ", mnto)
+#     print("| | Subtotal | |: ", mnto)
 
-    print("| | Igv | |: ", imp) 
+#     print("| | Igv | |: ", imp) 
 
-    print("| | Total a pagar: | |: ", totalfac)
+#     print("| | Total a pagar: | |: ", totalfac)
 
-    print("| | Gracias por tu compra | |")
+#     print("| | Gracias por tu compra | |")
 
-    if op == "d":
-        break
+#     if op == "d":
+#         break
